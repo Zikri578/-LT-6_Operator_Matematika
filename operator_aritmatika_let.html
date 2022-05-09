@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Aritmatika Let</title>
+</head>
+<body>
+    <!-- Operator Aritmatika untuk menyimpan hasil sementara didalam let dengan output secara langsung -->
+    <script>
+        document.writeln("Operator Arimatika untuk menyimpan hasil sementara didalam let dengan output secara langsung <br>");
+
+        // Operator aritmatika pangkat 
+        let hasil = 8**2;
+        document.writeln("<li> 8 ** 2 = "+ hasil +"</li>");
+        let hasilsementara = hasil; //membuat variabel baru untuk menyimpan sementara hasil 64
+        
+        // operator arimatika sisa bagi
+        hasil = hasil % 5;
+        document.writeln("<li>"+ hasilsementara +" %5 = "+ hasil +"</li>");
+        hasilsementara = hasil; //membuat variabel baru untuk menyimpan sementara hasil 4
+
+        // operator aritmatika kali
+        hasil = hasil * 5;
+        document.writeln("<li>"+ hasilsementara +" *5 ="+ hasil +"</li>");
+        hasilsementara = hasil; //membuat variabel baru untuk menyimpan sementara hasil 20
+
+        // operator aritmatika bagi
+        hasil = hasil / 3;
+        document.writeln("<li>"+ hasilsementara + " /3 ="+ hasil +"</li>");
+        hasilsementara = hasil; //membuat variabel baru untuk menyimpan sementara hasil 6.666666666666667
+
+        // operator arimatika tambah
+        hasil = hasil + 24;
+        document.writeln("<li>"+ hasilsementara +"+24 = "+ hasil +"</li>");
+        hasilsementara = hasil;
+
+        // operator aritmatika kurang
+        hasil = hasil - 43;
+        document.writeln("<li>"+ hasilsementara +"-43 = " + hasil +"</li>");
+        document.writeln("<br>");
+    </script>
+    <!-- //Operator Aritmatika untuk menyimpan hasil sementara didalam let dengan output secara langsung -->
+
+    <!-- Operator Aritmatika untuk menyimpan hasil sementara didalam let dengan output file secara terpisah -->
+    <script src="operator_aritmatika_let.js"></script>
+    <!-- //Operator Aritmatika untuk menyimpan hasil sementara didalam let dengan output file secara terpisah -->
+    
+</body>
+</html>
